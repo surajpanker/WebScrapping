@@ -29,5 +29,5 @@ for a in soup.findAll('div',attrs={'class':'_1YokD2 _3Mn1Gg col-8-12'}):
     ratings.append(rating.text)
 
 #save into csv file
-df = pd.DataFrame({'Product Name':products,'Price':prices,'Rating':ratings}) 
+df = pd.DataFrame({'Product Name':products,'Price':prices,'Rating':ratings})  #csv
 df.to_csv('products.csv', index=False, encoding='utf-8')
