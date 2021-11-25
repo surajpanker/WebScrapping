@@ -21,3 +21,5 @@ git status
 git add . //"." add all changes in the code and instead of the "." , use filename ,you change
 git commit -m "message" 
 git push -u origin branchname
+//create pull request
+https://opensource.com/article/19/7/create-pull-request-github
